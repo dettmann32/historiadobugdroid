@@ -29,28 +29,24 @@ a{
 
 
 header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
     background-image: linear-gradient(to bottom, #3BD17F,#021f0e);
     text-align: center;
-    padding: 5% 20px 2%;
+    padding: 5% 20px 2% 20px;
     height: 50%;
     color: white;
     min-height: 150px;
 }
 header > div{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    margin: auto;
     margin-top: 20px;
 }
 header > div > h1{
-    text-align: center;
-    margin: auto;
     margin-bottom: 5px;
     font-size: 2,5em;
     text-transform: uppercase;
-    width: 40%;
+
     font-weight: bolder;
     text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.705);
     
